@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 import rospy
 from geometry_msgs.msg import Twist
-from ca_msgs.msg import Bumper
+
 vel_x = rospy.get_param('~vel_x', 0.2)
 vel_rot = rospy.get_param('~vel_rot', 0.5)
-rospy.init_node('vel_bumper')
+rospy.init_node('cmd_key')
 pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
 
 while not rospy.is_shutdown():
