@@ -1,0 +1,14 @@
+<launch>
+	<node pkg="ros_irobot" name="webserver" type="webserver.py args="8000" />
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocet.launch">
+		<arg name="port" value"9000"/>
+	</include>
+
+	<node pkg="cv_camera" name="cv_camera" type="cv_camera_node" >
+		<param name="rate" value="10.0" />
+	</node>
+	
+	<node pkg="mjpeg_server" name ="mjpeg_server" type="mjpeg_server" >
+		<param name="port" value="10000" />
+	</node>
+</launch>
