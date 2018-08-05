@@ -1,8 +1,12 @@
 # ロボットシステム学
-## robosys2018
-
-
-
+## robosys2018  16C1029 岡田 眞也
+## 内容
+課題内容　ROSでなにかつくる
+* roombaとWEBカメラを使用して、移動できる監視カメラをつくる
+目的　rosのプログラムとwebプログラムの理解
+## 使用するもの
+* roomba 500シリーズ
+* C270 HD WEBCAMERA (Logicool)
 ### ルンバをROS化するまでの流れ
 参考文献　https://karaage.hatenadiary.jp/entry/2017/05/12/073000
 ```
