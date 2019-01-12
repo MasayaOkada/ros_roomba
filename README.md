@@ -18,7 +18,6 @@ $ roslaunch ca_driver create_2.launch
 [ INFO] [1533471233.535465295]: [CREATE] Connection established.
 [ INFO] [1533471233.535645399]: [CREATE] Battery level 99.37 %
 [ INFO] [1533471234.034841545]: [CREATE] Ready.
-
 ```
 通信できているかの確認
 
