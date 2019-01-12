@@ -38,8 +38,17 @@ $ rostopic list
 ルンバの情報が表示ができていたらOK
 
 ### カメラ画像をインターネットに表示する
-
+* インストール
 ```
 $ sudo apt install ros-kinetic-cv-bridge
 $ sudo apt install ros-kinetic-cv-camera
 $ sudo apt install ros-kinetic-image-transport-plugins
+```
+* 動作確認
+```
+$ rosrun cv_camera cv_camera_node
+$ rosrun mjpeg_server mjpeg_server _port:=10000
+```
+検索する
+http://自分のIPアドレス:10000/stream?topic=/cv_camera/image_raw
+
