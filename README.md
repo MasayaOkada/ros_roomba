@@ -11,7 +11,7 @@
 ```
 $ roslaunch ca_driver create_2.launch               # ルンバ起動
 $ roslaunch ros_irobot web_camera.launch            # WEBcameraをブラウザに表示
-$ rosrun ros_irobot cmd.key                         # ルンバをキーボードで操作
+$ rosrun ros_irobot cmd.key.py                      # ルンバをキーボードで操作
 ```
 
 ## 使用するもの
