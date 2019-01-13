@@ -3,7 +3,17 @@
 ## 内容
 課題内容　ROSでなにかつくる
 * roombaとWEBカメラを使用して、移動できる監視カメラをつくる
-目的　rosのプログラムとwebプログラムの理解
+* 目的　rosのプログラムとwebプログラムの理解
+
+動画
+
+* 動作
+```
+$ roslaunch ca_driver create_2.launch               # ルンバ起動
+$ roslaunch ros_irobot web_camera.launch            # WEBcameraをブラウザに表示
+$ rosrun ros_irobot cmd.key                         # ルンバをキーボードで操作
+```
+
 ## 使用するもの
 * roomba 500シリーズ
 * C270 HD WEBCAMERA (Logicool)
