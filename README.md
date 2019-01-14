@@ -5,7 +5,7 @@
 * roombaとWEBカメラを使用して、移動できる監視カメラをつくる
 * 目的　rosのプログラムとwebプログラムの理解
 
-動画
+動画URL：https://youtu.be/6hiJEvkPg18
 
 * 動作
 ```
