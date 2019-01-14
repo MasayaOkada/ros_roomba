@@ -9,7 +9,7 @@ pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
 
 while not rospy.is_shutdown():
     vel = Twist()
-    direction = raw_input('f: forward, b: backward, l: left, r: right > ')
+    direction = raw_input('<f: forward, b: backward, l: left, r: right > ')
     if 'f' in direction:
         vel.linear.x = vel_x
     if 'b' in direction:
