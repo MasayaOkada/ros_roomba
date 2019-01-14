@@ -25,7 +25,6 @@ $ rosrun ros_irobot cmd.key.py                      # ルンバをキーボー�
 * roomba 500シリーズ
 * C270 HD WEBCAMERA (Logicool)
 ### ルンバをROS化するまでの流れ
-参考文献　https://karaage.hatenadiary.jp/entry/2017/05/12/073000
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/AutonomyLab/create_autonomy.git
@@ -73,3 +72,7 @@ $ rosrun mjpeg_server mjpeg_server _port:=10000
 検索する
 http://自分のIPアドレス:10000/stream?topic=/cv_camera/image_raw
 
+### 参考文献
+ * [小倉: ROSではじめるロボットプログラミング, 工学社, 2015.](https://www.kohgakusha.co.jp/books/detail/978-4-7775-1901-9)
+ * [上田: Raspberry Piで学ぶ　ROSロボット入門, 日経BP, 2017.](http://ec.nikkeibp.co.jp/item/books/261040.html)
+ * https://karaage.hatenadiary.jp/entry/2017/05/12/073000
